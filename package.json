@@ -4,13 +4,19 @@
     "description": "Stanford Javascript Crypto Library",
     "main": "sjcl.js",
     "author": "bitwiseshiftleft",
-    "keywords": ["encryption", "high-level", "crypto"],
-    "repository" : {
+    "keywords": [
+        "encryption",
+        "high-level",
+        "crypto"
+    ],
+    "repository": {
         "type": "git",
         "url": "https://github.com/bitwiseshiftleft/sjcl.git"
     },
     "scripts": {
-      "test": "make test"
+        "test": "make test"
     },
-    "engines": { "node": "*" }
+    "engines": {
+        "node": "*"
+    }
 }
